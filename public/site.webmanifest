@@ -1,0 +1,29 @@
+/* 
+
+  "The site.webmanifest file is primarily used when you want to enable Progressive Web App (PWA) 
+  features for your web application. It is not mandatory for all web applications, but it is highly 
+  recommended if you want to provide a more app-like experience to your users."
+
+{
+  "name": "NextJS SEO",
+  "short_name": "Next SEO",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
+
+*/
